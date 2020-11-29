@@ -1,0 +1,64 @@
+/* Style */
+body{
+    font-family: arial, sans-serif;
+    background-color: #e3e3e3;
+}
+.navbar{
+	background-color: darkslategray;
+	z-index: 2;
+	position: fixed;
+}
+.navbar-default .navbar-brand{
+    color: #309c4d;
+    font-weight: bold;
+}
+.navbar-default .navbar-brand:hover{
+    color: #d3e3d8;
+}
+.navbar-default .navbar-nav li a{
+    color: #309c4d;
+}
+.navbar-default .navbar-nav li a:hover{
+    color: #d3e3d8;
+}
+.navbar-default .navbar-nav .navbar-right li a span{
+    padding-right: 5%;
+}
+.transfer{
+	height: 650px;
+}
+.carousel-inner>.item>a>img,
+.carousel-inner>.item>img, 
+.img-responsive{
+	width: 100%;
+	height: 650px;
+	filter: brightness(0.3);
+}
+.konten{
+	background-image: url(https://recreationalsystemsint.com/storage/app/uploads/public/eb7/0c6/4b8/thumb__1620_400_0_0_crop.jpg);
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+	z-index: 0;
+}
+.konten>.container{
+	padding-top: 5%;
+}
+.panel-footer{
+	text-align: center;
+}
+
+/* clearfix */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
